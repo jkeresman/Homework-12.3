@@ -24,7 +24,7 @@ def play_game(country_dict, level):
         else:
             print(f"Wrong, right answer is {capital_city}")
 
-    score = calculate_score(correct_answers=correct_answers, number_of_questions=len(country_dict),)
+    score = calculate_score(correct_answers=correct_answers, number_of_questions=len(country_dict))
 
     score_list.append(
         {
